@@ -36,7 +36,6 @@ body {
 </style>
 </head>
 <body>
-<center><img src="https://images.cooltext.com/4688380.png" width="628" height="130" alt="My Address Book" /></center>
 <div class="container">
   <div class = "row">
   <div class="col-sm-6 col-md-4 col-md-offset-4">
