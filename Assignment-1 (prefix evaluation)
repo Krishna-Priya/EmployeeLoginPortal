@@ -98,7 +98,7 @@ int main()
             {
                   case 20 : op1 = pop(&expression_stack);
                             op2 = pop(&expression_stack);
-                            evaluate_prefix(&expression_stack, expression[count], x, y);
+                            evaluate_prefix(&expression_stack, expression[count], op1, op2);
                             break;
                   case 10 : element = expression[count] - '0';
                             push(&expression_stack, element);
