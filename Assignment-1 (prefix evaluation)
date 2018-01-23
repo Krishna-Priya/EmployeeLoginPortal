@@ -21,7 +21,7 @@ void push(stack_structure *temp, int num)
       if(temp->top == LIMIT)
       {
             printf("\nStack Overflow\n");
-            exit(-1);
+            return;
       }
       else
       {
@@ -103,7 +103,7 @@ int main()
                   case 10 : element = expression[count] - '0';
                             push(&expression_stack, element);
                             break;
-                  case 15: expression[count--];
+                  case 15: continue;
             }
       }
       if(expression_stack.top != 0)
