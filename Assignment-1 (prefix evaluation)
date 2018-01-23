@@ -103,7 +103,7 @@ int main()
                   case 10 : element = expression[count] - '0';
                             push(&expression_stack, element);
                             break;
-                  case 15: continue;
+                  case 15: break;
             }
       }
       if(expression_stack.top != 0)
